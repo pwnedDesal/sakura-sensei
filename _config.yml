@@ -1,0 +1,71 @@
+---
+title: Blog BLog
+timezone: Europe/Paris
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+description: WEB APPLICATION SECURITY ENTHUSIAST, BREAKING THINGS FOR FUN & profit
+  :D
+url: https://pwneddesal.github.io
+blog_uri: https://pwneddesal.github.io
+markdown: kramdown
+excerpt_separator: "<!--more-->"
+permalink: "/articles/:year-:month/:title"
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+pages_list:
+  about me: "/about me "
+  archive: "/archive"
+  categories: "/categories"
+owner:
+  name: Adrian Belen
+  avatar: profile.jpg
+  job: WEB APPLICATION SECURITY ENTHUSIAST, BREAKING THINGS FOR FUN & profit :D
+  bio: ":D"
+  email: 
+  disqus-shortname: adrianswebsecurityblog
+  twitter: nukesec
+  facebook: 
+  google:
+    plus: 
+    analytics: UA-75403295-1
+    verify: 
+    ad-client: 
+    ad-slot: 
+  bing-verify: 
+  github: deadstar1
+  stackoverflow: 
+  linkedin: 
+  xing: 
+  instagram: 
+  lastfm: 
+  tumblr: 
+  pinterest: 
+  foursquare: 
+  steam: 
+  dribbble: 
+  youtube: 
+  soundcloud: 
+  weibo: 
+  flickr: 
+  codepen: 
+  hackerone: adrianbelen
+  bugcrowd: adrianbelen
+pagination:
+  enabled: true
+  per_page: 4 
+  paginate_path: "/page:num"
+  sort_reverse: true
+  title: ":title"
+  trail:
+    before: 2
+    after: 2
+plugins: [jekyll-gist,jekyll-paginate-v2,jekyll-timeago]
